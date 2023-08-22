@@ -82,8 +82,8 @@ endmodule
 */
 ```
  ### Logic symbol & Truthtable:
+ ![table](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/78e8b293-09fd-43e1-ad64-506ffb98802f)
 ![1](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/b8395052-5d73-48a7-bab1-cd457ee4d32b)
-![table](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/78e8b293-09fd-43e1-ad64-506ffb98802f)
 ### Output:
 ![3](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/352598ba-dbea-4c1a-ba9b-ccdbcddb067b)
 ### Result:
