@@ -1,5 +1,6 @@
+## EX 01 STUDY-OF-BASIC-DIGITAL-IC-S-AND-VERIFICATION-OF-TRUTH-TABLES-FOR-DIFFERENT-LOGIC-GATES-REALIZATION
 ### AIM:
-To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
+To study about the different digital logic gates and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 ### Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
@@ -86,4 +87,4 @@ endmodule
 ### Output:
 ![3](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/352598ba-dbea-4c1a-ba9b-ccdbcddb067b)
 ### Result:
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+Thus the different digital logic gates are studied and the truth table for different logic gates are verified.
