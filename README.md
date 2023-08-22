@@ -1,4 +1,4 @@
-# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
+![1](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/78f29567-6a8d-4593-9021-8219e8046bc8)# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -51,22 +51,49 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-Procedure
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
-If the output is 1, then the bulb glows.
-Check all the gates following the same procedure.
+Procedure:
+
+Create a New Project:
+   1. Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+   2.  Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+ Create a New Design File:
+    1. Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+    2. Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+ Write the Combinational Logic Code:
+    1. Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+ Compile the Project:
+    1.To compile the project, click on "Processing" > "Start Compilation" in the menu.
+    2. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+Analyze and Fix Errors:
+    1. If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+    2.Review and fix any issues in your code if necessary.
+    3.View the RTL diagram.
+Verification:
+   1. Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+   2.Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+   3.Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
+
 Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: SHALINI.K
+RegisterNumber:  212222240095
+module Ex1(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor);
+input a,b;
+output yand,yor,ynot,yxor,ynand,ynor,yxnor;
+and (yand,a,b);
+or (yor,a,b);
+not (ynot,a);
+xor (yxor,a,b);
+nand (ynand,a,b);
+nor (ynor,a,b);
+xnor (yxnor,a,b);
+endmodule
 */
 Logic symbol & Truthtable
-RTL realization
+![1](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/b8395052-5d73-48a7-bab1-cd457ee4d32b)
+![table](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/78e8b293-09fd-43e1-ad64-506ffb98802f)
 Output:
-RTL
-
+![3](https://github.com/shalinikannan23/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118656529/352598ba-dbea-4c1a-ba9b-ccdbcddb067b)
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
